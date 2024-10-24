@@ -12,6 +12,10 @@ public class Nomor1{
             honor = honor*totalJamLembur;
             System.out.println(honor);
         }
+            else if (totalJamLembur == 16){
+            honor = honor*totalJamLembur;
+            System.out.println(honor);
+        }
         else if (totalJamLembur >= 16){
             honor = honor*minLmb;
             honor = honor-(15000-10000);
